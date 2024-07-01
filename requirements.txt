@@ -1,0 +1,11 @@
+torch==2.3.1
+numpy
+pandas
+notebook
+dvc
+mlflow==2.2.2
+matplotlib
+seaborn
+tqdm
+Flask
+Flask-Cors

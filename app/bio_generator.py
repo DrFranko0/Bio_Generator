@@ -1,4 +1,4 @@
-from langchain_ollama import OllamaLLM
+from langchain_community import Ollama
 from langchain.prompts import PromptTemplate
 from langchain.schema.runnable import RunnableSequence
 

@@ -1,4 +1,4 @@
-from langchain_community.llms import Ollama
+from langchain_ollama import OllamaLLM
 from langchain.prompts import PromptTemplate
 from langchain.schema.runnable import RunnableSequence
 
@@ -12,7 +12,7 @@ def generate_bio_with_langchain(preferences):
     Relationship: {preferences['relationship']}
     """
     
-    model = Ollama(model="llama3.1")  # Using Ollama's Llama 3.1 model
+    model = OllamaLLM(model="llama3.1")  # Using Ollama's Llama 3.1 model
     prompt_template = PromptTemplate(template=prompt, input_variables=[])
     runnable = prompt_template | model
     

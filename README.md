@@ -1,4 +1,4 @@
-# Bio Generator Flask Application
+# Bio Generator Application
 
 This project is a Flask-based web application that generates a personalized bio based on user input. The bio is generated based on the user's preferences regarding career, personality, interests, and relationship type. The application uses LangChain for generating the personalized bio content.
 
